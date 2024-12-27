@@ -23,15 +23,26 @@ header nav a {
     margin: 0 10px;
     font-size: 1rem;
 }
+.navbar-nav .nav-link {
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    margin: 0px 10px 0 90px;
+    display: flex;
+    align-items: center;
+}
 .hero {
     background-color: #ff0050;
     color: #fff;
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px 20px;
 }
 .hero h1 {
     margin: 0;
     font-size: 2.5rem;
+}
+.hero-img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 .hero p {
     font-size: 1.2rem;
@@ -139,4 +150,7 @@ footer p {
 .whatsapp-chat img {
     width: 50px;
     height: 50px;
+}
+.navbar-toggler {
+    margin-left: auto;
 }
