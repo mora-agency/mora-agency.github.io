@@ -23,15 +23,69 @@ header nav a {
     margin: 0 10px;
     font-size: 1rem;
 }
+.navbar-nav .nav-link {
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    margin: 0px 10px 0 90px;
+    display: flex;
+    align-items: center;
+}
+.gallery-section .card {
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery-section .card:hover {
+    transform: scale(1.05);
+}
+.gallery-section h1 {
+    margin-top: 20px; /* Adjust margin at the top as needed */
+    margin-bottom: 20px; /* Adjust margin at the bottom as needed */
+}
+.gallery-img {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    object-fit: cover; 
+    margin: 5px 0px;
+}
+.card-body {
+    width: 100%; /* Ensure the card body takes the full width of the card */
+    text-align: center; /* Center the text */
+    padding-top: 10px; /* Adjust padding as needed */
+    padding-bottom: 10px; /* Adjust padding as needed */
+    margin-top: -10px; /* Reduce the margin to decrease the gap */
+}
+.about-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+}
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.about-section h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.about-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
 .hero {
     background-color: #ff0050;
     color: #fff;
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px 20px;
 }
 .hero h1 {
     margin: 0;
     font-size: 2.5rem;
+}
+.hero-img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 .hero p {
     font-size: 1.2rem;
@@ -117,13 +171,17 @@ header nav a {
 footer {
     background-color: #000;
     color: #fff;
+    padding: 20px 0;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+    margin-top: auto; /* Push the footer to the bottom */
 }
 footer p {
     margin: 0;
     font-size: 0.9rem;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
 .whatsapp-chat {
     position: fixed;
@@ -135,8 +193,10 @@ footer p {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
 }
-
 .whatsapp-chat img {
     width: 50px;
     height: 50px;
+}
+.navbar-toggler {
+    margin-left: auto;
 }
