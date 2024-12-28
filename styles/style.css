@@ -30,6 +30,7 @@ header nav a {
     display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
 .gallery-section .card {
     transition: transform 0.2s;
     display: flex;
@@ -73,6 +74,8 @@ header nav a {
     font-size: 1rem;
     line-height: 1.5;
 }
+=======
+>>>>>>> 5ae31423cc5c0308917248fded505be7c4e5186e
 .hero {
     background-color: #ff0050;
     color: #fff;
