@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Backstage Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #101010;
+            border-bottom: 1px solid #333;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('https://via.placeholder.com/1920x1080') no-repeat center/cover;
+            margin-top: 10px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            text-align: center;
+        }
+
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin-top: -20px; /* Adjust this value as needed */
+        }
+
+        .login-container input {
+            width: 300px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #555;
+            border-radius: 5px;
+            background: #222;
+            color: #fff;
+        }
+
+        .login-container button {
+            width: 300px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #ff0050;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background: #e00045;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #101010;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">TikTok Backstage</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Support</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to TikTok Backstage</h1>
+    </div>
+
+    <div class="login-container">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button id="loginButton">Login</button>
+    </div>
+    <footer>
+        <p>&copy; 2023 TikTok Backstage. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const loginButton = document.getElementById('loginButton');
+        loginButton.addEventListener('click', () => {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (username === 'admin' && password === 'admin') {
+                window.location.href = 'dashboard.html';
+            } else {
+                alert('Invalid username or password');
+            }
+        });
+    </script>
+</body>
+</html>
