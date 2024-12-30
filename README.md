@@ -16,7 +16,7 @@ mora-agency
 ## Setup Instructions
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/mora-agency.git
+   git clone https://github.com/mora-agency/mora-agency.git
    ```
 2. Navigate to the project directory:
    ```
