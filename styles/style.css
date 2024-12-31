@@ -27,14 +27,21 @@ header nav a {
     height: auto;
     max-height: 300px; /* Sesuaikan ukuran gambar */
     object-fit: contain; /* Agar gambar tidak terdistorsi */
+    margin-top: -5px;
 }
 .carousel-caption {
    position: static;
    padding-top: 10px;
    margin-top: -15px;
 }
+.carousel-caption .icon {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
 .carousel-caption a {
-    color: black; /* Ubah warna link menjadi hitam */
+    color: rgb(18, 30, 190); /* Ubah warna link menjadi hitam */
     text-decoration: none;
 }
  @media (max-width: 768px) {
@@ -47,8 +54,8 @@ header nav a {
 }
   .carousel-caption p {
     color: #101010; /* Warna teks untuk paragraf */
-    margin: 28px 28px;
-    margin-top: 5px;
+    margin: 30px 30px;
+    margin-top: -5px;
 }
 .carousel-control-prev,
 .carousel-control-next {
