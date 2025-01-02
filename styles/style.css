@@ -52,8 +52,14 @@ header nav a {
       display: block; /* Pastikan caption selalu ditampilkan pada perangkat mobile */
     }
 }
-  .carousel-caption h5 {
+.carousel-caption h5 {
+    align-items: center;
     color: #101010; /* Warna teks untuk judul */
+}
+
+.carousel-caption h5 i {
+    color: #000; /* Warna ikon TikTok */
+    margin-right: 10px; /* Jarak antara ikon dan teks */
 }
   .carousel-caption p {
     color: #101010; /* Warna teks untuk paragraf */
@@ -394,8 +400,8 @@ footer a {
     padding: 10px;
 }
 .whatsapp-chat img {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 .whatsapp-chat img:hover {
     transform: scale(1.2);
