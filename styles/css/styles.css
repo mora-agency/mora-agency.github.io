@@ -2,11 +2,11 @@ body {
     font-family: 'Poppins', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
+    background: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
     color: #333;
 }
 header {
-    background-color: #161616;
+    background: -webkit-gradient(linear, left top, right top, from(#fc7e1d), to(#ff093e));
     color: #fff;
     padding: 5px 15px;
     display: flex;
@@ -14,7 +14,6 @@ header {
     align-items: center;
 }
 header .logo {
-    color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -37,10 +36,10 @@ header nav a {
     font-size: 1rem;
 }
 header nav a:hover {
-    color: #ccc;
+    color: #000;
 }
 .navbar-toggler {
-    background-color: #161616;
+    background: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
     margin-left: auto;
 }
 .hero {
@@ -59,7 +58,7 @@ header nav a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #bd1616cb;
+    background-color: #d41a1acb;
     z-index: 1;
 }
 .hero * {
@@ -111,9 +110,10 @@ header nav a:hover {
     background: linear-gradient(135deg, #fa2150, #ffb983); 
     padding: 20px;
     border-radius: 30px;
+    display: flex;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
 }
 .profile {
-    background-color: gray;
     padding: 20px 10px;
     margin-top: -10px;
 }
@@ -193,11 +193,11 @@ header nav a:hover {
     align-items: center;
     justify-content: center;
     margin: 10px auto;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
 }
 .aboutme {
-    background-color: gray;
     padding: 0px 10px;
-    margin-top: -20px;
+    margin-top: -13px;
 }
 .aboutme-title {
     flex: 1;
@@ -233,9 +233,9 @@ header nav a:hover {
     align-items: center;
 }
 .syarat {
-    background-color: gray;
     padding: 10px;
-    margin-top: -10px;
+    margin-top: -3px;
+    margin-bottom: 10px;
 }
 .container-syarat {
     background: -webkit-gradient(linear, left top, right top, from(#fa2150), to(#ffb983));
@@ -245,6 +245,7 @@ header nav a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
 }
 .syarat-title {
     font-size: 1em;
@@ -403,7 +404,7 @@ header nav a:hover {
     transform: scale(1.2);
 }
 footer {
-    background-color: #181818;
+    background: -webkit-gradient(linear, left top, right top, from(#fc7e1d), to(#ff093e));
     color: white;
     text-align: center;
     padding: 20px 0;
