@@ -1,0 +1,421 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
+    color: #333;
+}
+header {
+    background-color: #161616;
+    color: #fff;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+header .logo a {
+    color: white;
+    text-decoration: none;
+}
+header .logo a:hover {
+    color: #ccc;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1px;
+    margin-top: -8px;
+    font-size: 1rem;
+}
+header nav a:hover {
+    color: #ccc;
+}
+.navbar-toggler {
+    background-color: #161616;
+    margin-left: auto;
+}
+.hero {
+    position: relative;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(233, 233, 235);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bd1616cb;
+    z-index: 1;
+}
+.hero * {
+    position: relative;
+    z-index: 2;
+}
+.hero .hero-img {
+    width: 100px;
+    height: auto;
+    margin-top: -35px;
+    margin-bottom: 1px;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 1px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.hero button {
+    background: linear-gradient(135deg, #fa2150, #ffb983);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    transition: background 0.5s ease, transform 0.3s ease;
+}
+
+.hero button:hover {
+    background: linear-gradient(135deg, #ffb983, #fa2150);
+    transform: scale(1.05);
+}
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+    .hero p {
+        font-size: 1em;
+    }
+    .hero button {
+        font-size: 1em;
+    }
+}
+.container-profile {
+    background: linear-gradient(135deg, #fa2150, #ffb983); 
+    padding: 20px;
+    border-radius: 30px;
+}
+.profile {
+    background-color: gray;
+    padding: 20px 10px;
+    margin-top: -10px;
+}
+.profile .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+.profile-photo {
+    flex: 1;
+    text-align: center;
+    padding-right: 20px;
+}
+.profile-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Membuat foto menjadi lingkaran */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.507);
+}
+.profile-details {
+    flex: 2;
+    text-align: justify;
+    padding-left: 20px;
+}
+.profile-details h2 {
+    font-size: 1.4em;
+    font-display: bold;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profile-details p {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #333;
+}
+.profile-details a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.profile-details a:hover {
+    color: #030303;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0); /* Background semi-transparan */
+    border-radius: 50%;
+    color: rgb(43, 42, 42);
+    font-size: 1.5em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Lebar kontrol */
+}
+
+.carousel-control-prev {
+    left: -20px; /* Jarak dari kiri */
+}
+
+.carousel-control-next {
+    right: -20px; /* Jarak dari kanan */
+}
+.container-aboutme {
+    background: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+.aboutme {
+    background-color: gray;
+    padding: 0px 10px;
+    margin-top: -20px;
+}
+.aboutme-title {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+    background: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
+    border-radius: 20px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
+}
+.aboutme-details {
+    flex: 2;
+    text-align: justify;
+    color: #000;
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.aboutme-details h2 {
+    font-size: 1.5em;
+    font-display: bold;
+    color: #161616;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.aboutme-details p {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #333;
+    align-items: center;
+}
+.syarat {
+    background-color: gray;
+    padding: 10px;
+    margin-top: -10px;
+}
+.container-syarat {
+    background: -webkit-gradient(linear, left top, right top, from(#fa2150), to(#ffb983));
+    padding: 10px 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.syarat-title {
+    font-size: 1em;
+    text-align: center;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.syarat-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.syarat-details {
+    flex: 1;
+    align-items: center;
+    margin-right: 20px;
+}
+.syarat-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+.syarat-details li {
+    font-size: 1em;
+    text-align: justify;
+    padding-left: 50px;
+    position: relative;
+}
+.syarat-details li i {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+.syarat-cta {
+    background: linear-gradient(135deg, #fa2150, #ffb983);
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.5s ease, transform 0.3s ease;
+}
+.syarat-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(135deg, #ffb983, #fa2150);
+    transition: left 0.5s ease;
+    z-index: 0;
+}
+.syarat-cta:hover::before {
+    left: 0;
+}
+.syarat-cta p, .syarat-cta h4 {
+    position: relative;
+    z-index: 1;
+}
+.syarat-cta p {
+    text-align: justify;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.syarat-cta h4 {
+    font-size: 1.3em;
+    color: #fff;
+}
+
+/* Start of CSS for About Me */
+.about-hero {
+    background: linear-gradient(135deg, #fa2150, #ffb983);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.about-content {
+    padding: 50px 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: -30px;
+    position: relative;
+    z-index: 1;
+}
+
+.about-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fa2150;
+}
+
+.about-content p {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-content .list-unstyled {
+    padding-left: 0;
+}
+
+.about-content .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.about-content .list-unstyled li a {
+    color: #fa2150;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.about-content .list-unstyled li a:hover {
+    text-decoration: underline;
+}
+
+/* End of CSS for About Me */
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #8d8f8e65;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgb(7, 243, 27);
+    padding: 10px;
+}
+.whatsapp img {
+    width: 30px;
+    height: 30px;
+}
+.whatsapp img:hover {
+    transform: scale(1.2);
+}
+footer {
+    background-color: #181818;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
