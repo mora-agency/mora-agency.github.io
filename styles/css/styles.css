@@ -80,17 +80,18 @@ header nav a:hover {
     margin-bottom: 10px;
 }
 .hero button {
-    background: linear-gradient(135deg, #293855, #c3e8c9);
+    background: linear-gradient(135deg, #4165d5, #c3e8c9);
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
-    color: #c3e8c9;
+    color: #293855;
     transition: background 0.5s ease, transform 0.3s ease;
+    box-shadow: 0 8px 10px rgba(29, 38, 55, 0.507);
 }
 .hero button:hover {
-    background: linear-gradient(135deg, #c3e8c9, #293855);
+    background: linear-gradient(135deg, #c3e8c9, #4165d5);
     transform: scale(1.05);
 }
 @media (max-width: 768px) {
@@ -235,8 +236,8 @@ header nav a:hover {
     margin-bottom: 10px;
 }
 .container-syarat {
-    background: -webkit-gradient(linear, left top, right top, from(#4165d5), to(#c3e8c9));
-    padding: 10px 10px;
+    background: linear-gradient(320deg, #4165d5, #c3e8c9);
+    padding: 20px 20px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -249,7 +250,7 @@ header nav a:hover {
     text-align: center;
     padding: 5px 20px;
     margin-bottom: 20px;
-    background: -webkit-linear-gradient(135deg, #4165d5, #c3e8c9);
+    background: -webkit-linear-gradient(290deg, #4165d5, #c3e8c9);
     box-shadow: 0 8px 10px rgba(29, 38, 55, 0.507);
     border-radius: 20px;
     position: relative;
