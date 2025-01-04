@@ -89,7 +89,6 @@ header nav a:hover {
     color: #c3e8c9;
     transition: background 0.5s ease, transform 0.3s ease;
 }
-
 .hero button:hover {
     background: linear-gradient(135deg, #c3e8c9, #293855);
     transform: scale(1.05);
@@ -325,8 +324,8 @@ header nav a:hover {
 
 /* Start of CSS for About Me */
 .about-hero {
-    background: linear-gradient(135deg, #4165d5, #c3e8c9);
-    color: white;
+    background: linear-gradient(360deg, #293855, #4165d5);
+    color: #c3e8c9;
     padding: 50px 20px;
     text-align: center;
 }
@@ -340,7 +339,7 @@ header nav a:hover {
 }
 .about-content {
     padding: 50px 20px;
-    background: white;
+    background: -webkit-linear-gradient(90deg, #4165d5, #f1ac20, #c3e8c9);
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     margin-top: -30px;
@@ -348,29 +347,64 @@ header nav a:hover {
     z-index: 1;
 }
 .about-content h2 {
+    text-align: center;
     font-size: 2em;
-    margin-bottom: 20px;
-    color: #fa2150;
+    margin-bottom: 5px;
+    color: #293855;
+}
+.about-content .logo img {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
 }
 .about-content p {
-    text-align: justify;
     font-size: 1.1em;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .about-content .list-unstyled {
     padding-left: 0;
 }
 .about-content .list-unstyled li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .about-content .list-unstyled li a {
-    color: #fa2150;
+    color: #293855;
     text-decoration: none;
     font-size: 1.1em;
 }
 .about-content .list-unstyled li a:hover {
     text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .about-hero h1 {
+        font-size: 1.8em;
+    }
+    .about-hero p {
+        font-size: 1em;
+    }
+    .about-content {
+        padding: 20px;
+    }
+    .about-content h2 {
+        font-size: 1.5em;
+    }
+    .about-content p {
+        font-size: 1em;
+        text-align: center;
+    }
+    .about-content .logo img {
+        width: 40%;
+    }
+    .about-content .col-md-4,
+    .about-content .col-md-8,
+    .about-content .col-md-6 {
+        text-align: center;
+    }
+
+    .about-content .col-md-4 img {
+        margin: 0 auto;
+    }
 }
 
 /* End of CSS for About Me */
