@@ -2,12 +2,12 @@ body {
     font-family: 'Poppins', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
+    background: -webkit-linear-gradient(135deg, #293855, #c3e8c9);
     color: #333;
 }
 header {
-    background: -webkit-gradient(linear, left top, right top, from(#fc7e1d), to(#ff093e));
-    color: #fff;
+    background: #293855;
+    color: #c3e8c9;
     padding: 5px 15px;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@ header .logo {
     font-weight: bold;
 }
 header .logo a {
-    color: white;
+    color: #c3e8c9;
     text-decoration: none;
 }
 header .logo a:hover {
@@ -29,7 +29,7 @@ header nav {
     align-items: center;
 }
 header nav a {
-    color: #fff;
+    color: #c3e8c9;
     text-decoration: none;
     margin: 0 1px;
     margin-top: -8px;
@@ -39,14 +39,14 @@ header nav a:hover {
     color: #000;
 }
 .navbar-toggler {
-    background: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
+    background: #293855;
     margin-left: auto;
 }
 .hero {
     position: relative;
     padding: 10px 10px;
     text-align: center;
-    color: white;
+    color: #c3e8c9;
     background-color: rgb(233, 233, 235);
     background-size: cover;
     background-position: center;
@@ -58,7 +58,7 @@ header nav a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #d41a1acb;
+    background-color: #4166d5ee;
     z-index: 1;
 }
 .hero * {
@@ -80,18 +80,18 @@ header nav a:hover {
     margin-bottom: 10px;
 }
 .hero button {
-    background: linear-gradient(135deg, #fa2150, #ffb983);
+    background: linear-gradient(135deg, #293855, #c3e8c9);
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
-    color: white;
+    color: #c3e8c9;
     transition: background 0.5s ease, transform 0.3s ease;
 }
 
 .hero button:hover {
-    background: linear-gradient(135deg, #ffb983, #fa2150);
+    background: linear-gradient(135deg, #c3e8c9, #293855);
     transform: scale(1.05);
 }
 @media (max-width: 768px) {
@@ -107,11 +107,11 @@ header nav a:hover {
     }
 }
 .container-profile {
-    background: linear-gradient(135deg, #fa2150, #ffb983); 
+    background: linear-gradient(135deg, #4165d5, #c3e8c9); 
     padding: 20px;
     border-radius: 30px;
     display: flex;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
+    box-shadow: 0 8px 10px rgba(29, 38, 55, 0.507);
 }
 .profile {
     padding: 20px 10px;
@@ -142,20 +142,18 @@ header nav a:hover {
 .profile-details h2 {
     font-size: 1.4em;
     font-display: bold;
-    color: #333;
+    color: #293855;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .profile-details p {
     font-size: 0.9em;
     font-style: italic;
-    color: #333;
+    color: #293855;
 }
 .profile-details a {
-    color: #333;
+    color: #293855;
     text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 .profile-details a:hover {
     color: #030303;
@@ -186,14 +184,14 @@ header nav a:hover {
     right: -20px; /* Jarak dari kanan */
 }
 .container-aboutme {
-    background: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
+    background: -webkit-linear-gradient(135deg, #4165d5, #c3e8c9);
     padding: 20px;
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 10px auto;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
+    box-shadow: 0 8px 10px rgba(29, 38, 55, 0.507);
 }
 .aboutme {
     padding: 0px 10px;
@@ -205,23 +203,23 @@ header nav a:hover {
     padding: 20px;
     font-size: 1.3em;
     font-weight: bold;
-    color: #333;
-    background: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
+    color: #293855;
+    background: -webkit-linear-gradient(135deg, #4165d5, #c3e8c9);
     border-radius: 20px;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
+    box-shadow: 0 8px 10px rgba(29, 38, 55, 0.507);
 }
 .aboutme-details {
     flex: 2;
     text-align: justify;
-    color: #000;
-    font-size: 1em;
+    color: #293855;
+    font-size: 1.2em;
     padding-left: 10px;
     padding-right: 30px;
 }
 .aboutme-details h2 {
     font-size: 1.5em;
     font-display: bold;
-    color: #161616;
+    color: #293855;
     margin-top: 10px;
     margin-bottom: 10px;
     align-items: center;
@@ -229,7 +227,7 @@ header nav a:hover {
 .aboutme-details p {
     font-size: 0.9em;
     font-style: italic;
-    color: #333;
+    color: #293855;
     align-items: center;
 }
 .syarat {
@@ -238,22 +236,22 @@ header nav a:hover {
     margin-bottom: 10px;
 }
 .container-syarat {
-    background: -webkit-gradient(linear, left top, right top, from(#fa2150), to(#ffb983));
+    background: -webkit-gradient(linear, left top, right top, from(#4165d5), to(#c3e8c9));
     padding: 10px 10px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
+    box-shadow: 0 8px 10px rgba(29, 38, 55, 0.507);
 }
 .syarat-title {
     font-size: 1em;
     text-align: center;
     padding: 5px 20px;
     margin-bottom: 20px;
-    background: -webkit-linear-gradient(135deg, #fa2150, #ffb983);
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
+    background: -webkit-linear-gradient(135deg, #4165d5, #c3e8c9);
+    box-shadow: 0 8px 10px rgba(29, 38, 55, 0.507);
     border-radius: 20px;
     position: relative;
     overflow: hidden;
@@ -284,14 +282,14 @@ header nav a:hover {
     left: 10px;
     top: 0;
     font-size: 1.2em;
-    color: #333;
+    color: #293855;
 }
 .syarat-cta {
-    background: linear-gradient(135deg, #fa2150, #ffb983);
+    background: linear-gradient(135deg, #4165d5, #c3e8c9);
     text-align: center;
     width: 100%;
     padding: 20px;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.507);
+    box-shadow: 0 8px 10px rgba(28, 38, 55, 0.507);
     border-radius: 30px;
     position: relative;
     overflow: hidden;
@@ -304,7 +302,7 @@ header nav a:hover {
     left: -100%;
     width: 200%;
     height: 100%;
-    background: linear-gradient(135deg, #ffb983, #fa2150);
+    background: linear-gradient(135deg, #c3e8c9, #4165d5);
     transition: left 0.5s ease;
     z-index: 0;
 }
@@ -327,22 +325,19 @@ header nav a:hover {
 
 /* Start of CSS for About Me */
 .about-hero {
-    background: linear-gradient(135deg, #fa2150, #ffb983);
+    background: linear-gradient(135deg, #4165d5, #c3e8c9);
     color: white;
     padding: 50px 20px;
     text-align: center;
 }
-
 .about-hero h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
 }
-
 .about-hero p {
     font-size: 1.2em;
     margin-bottom: 0;
 }
-
 .about-content {
     padding: 50px 20px;
     background: white;
@@ -352,34 +347,28 @@ header nav a:hover {
     position: relative;
     z-index: 1;
 }
-
 .about-content h2 {
     font-size: 2em;
     margin-bottom: 20px;
     color: #fa2150;
 }
-
 .about-content p {
     text-align: justify;
     font-size: 1.1em;
     line-height: 1.6;
     margin-bottom: 20px;
 }
-
 .about-content .list-unstyled {
     padding-left: 0;
 }
-
 .about-content .list-unstyled li {
     margin-bottom: 10px;
 }
-
 .about-content .list-unstyled li a {
     color: #fa2150;
     text-decoration: none;
     font-size: 1.1em;
 }
-
 .about-content .list-unstyled li a:hover {
     text-decoration: underline;
 }
@@ -404,8 +393,8 @@ header nav a:hover {
     transform: scale(1.2);
 }
 footer {
-    background: -webkit-gradient(linear, left top, right top, from(#fc7e1d), to(#ff093e));
-    color: white;
+    background: #293855;
+    color: #c3e8c9;
     text-align: center;
     padding: 20px 0;
     position: relative;
@@ -417,6 +406,9 @@ footer p {
     font-size: 0.9rem;
 }
 footer a {
-    color: #fff;
+    color: #c3e8c9;
     text-decoration: none;
+}
+footer a:hover {
+    color: #ccc;
 }
